@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Libre+Baskerville:ital@0;1&display=swap');
+
+:root{
+    --primary-color:#F89536;
+    /* --sec-color:; */
+}
+header a:hover{
+    padding:1em 2em;
+border: 3px solid white;
+color: #F89536;
+border-radius: 25px;
+}
+nav{
+    padding: 2em;
+    height: 3em;
+}
+
+body{
+    /* font-family: 'Inspiration', cursive; */
+    font-family: 'Libre Baskerville', serif;
+    margin: 0%;
+    background-color: rgb(247,247,247);
+}
+.flex{
+    display: flex;
+}
+.link-secondary{
+    padding: 1em 2em;
+    border-radius: 25px;
+    border: 2px solid var(--primary-color);
+}
+
+.tech-lib{
+    padding: 1em 2em;
+    border-radius: 25px;
+    border: 5px solid var(--primary-color);
+}
+.tech-lib i{
+  font-size: xx-large;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.navigation ul a{
+ text-decoration:none;
+ color: white;
+}
+.waves{
+    position: absolute;
+    top: 21em;
+    z-index: -2;
+}
+.padding-top{
+    padding: 2em 0;
+}
+.font-size {
+   font-size:2em
+}
+.padding{
+    padding: 2em;
+}
+.Education{
+    font-size: larger;
+    
+}
+h2{
+    text-align: center;
+    font-size: larger;
+    font-weight: 4000;
+}
+#lets-connect{
+    padding: 0 20em;
+}
+
+
+
+#lets-connect form input{
+    padding: 0.5em 2em;
+    border-radius: 25px;
+}
+#lets-connect form{
+        padding:4em;
+        background-color: #f894364e;
+        border-radius: 12px;
+    
+}
+
+footer{
+    background-color: #F89536;
+    color: whitesmoke;
+}
+.lef{
+    text-align: center;
+}
